@@ -1,8 +1,11 @@
 {
   "name": "senbei",
   "version": "0.0.1",
-  "description": "A command line tool to generate commands from simple templates",
+  "description": "Generate tasty command line snacks, using simple templates",
   "main": "index.js",
+  "bin": {
+    "senbei": "./bin/senbei.js"
+  },
   "scripts": {
     "start": "node index",
     "start:watch": "nodemon -e js,json -x 'npm start --silent'",
@@ -13,5 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^1.15.3"
+  },
+  "dependencies": {
+    "enquirer": "^2.3.0"
   }
 }
