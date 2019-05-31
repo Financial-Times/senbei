@@ -1,10 +1,14 @@
 {
   "name": "senbei",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate tasty command line snacks, using simple templates",
   "main": "index.js",
   "bin": {
     "senbei": "./bin/senbei.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Financial-Times/senbei.git"
   },
   "scripts": {
     "start": "node index",
