@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "files.exclude": {
+      "node_modules": true
+    },
+    "prettier.semi": true,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "prettier.singleQuote": true
+  }
